@@ -57,7 +57,7 @@ body{margin-top: 5.5rem;}
 .nosotros__titular{ font-size: 100%; letter-spacing: 0.4rem;}
 .nosotros__titular2{font-size: 130%;}
 .nosotros__videobox{margin: 1rem; width: 45%; height: 80%;}
-.nosotros__parrafo{margin-top: 1rem; width: 47%;height: 40%; margin-left: 2rem;}
+.nosotros__parrafo{margin-top: 1rem; width: 47%;height: 0%; margin-left: 2rem;}
 .nosotros__parrafo >p{font-size: 1rem;}
 } 
 
@@ -85,10 +85,10 @@ body{margin-top: 5.5rem;}
 .main__video{ height: 88vh; margin-top: 0; padding-top: 5%;}
 .nosotros__titular{font-size: 70%; margin-top: 1rem; letter-spacing: 0.1rem;}
 .nosotros__titular2{font-size: 60%; letter-spacing: 0.1rem; margin-top:0rem;}
-.nosotros__videobox{margin: 1rem; width: 90%; height:25vh; border-radius: 3%;}
-.nosotros__parrafo{width: 90%;height: 65vh; margin-top: 0%; margin-left: 5%;}
+.nosotros__videobox{ display:none; margin: 1rem; width: 90%; height:25vh; border-radius: 3%;}
+.nosotros__parrafo{width: 90%;height: 70vh; margin-top: 0%; margin-left: 5%;}
 .nosotros__parrafo >p{font-size: 1rem; padding: 0%; font-weight: 100;}
-.nosotros__layout{display: grid; flex-direction: column;   background-image:url(../../img/manos_tierra.jpg); background-position:center;background-repeat:no-repeat; background-size:cover; height:110vh;}
+.nosotros__layout{display: grid; flex-direction: column;   background-image:url(../../img/manos_tierra.jpg); background-position:center;background-repeat:no-repeat; background-size:cover; height:80vh;}
 .nosotros__container{display: flex; flex-direction: column;}
 .back__top {margin-left: 80%;padding: 10;}
 }
