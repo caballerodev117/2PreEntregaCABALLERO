@@ -33,6 +33,49 @@ body{margin-top: 5.5rem;}
  .nosotros__parrafo{margin-top: 3rem; border-radius: 48px; width: 45%;height: 79%;} 
  .nosotros__parrafo >p{font-size: 100%; font-family: 'lato'; color: #e3e0e0; text-shadow: 1px 1px 3px #030303; text-align:center ; padding: 1rem; background-color: rgba(228, 209, 209, 0.1); border-radius: 48px; font-weight: 200;backdrop-filter: blur(20px) saturate(180%)}
 
+ /* PRODUCTOS  */
+.video__left {display:inline; float: left;}
+.video__center {display:inline; float:center; margin-left: 2rem}
+.video__right {display:inline; float:right}
+.subtitles{display:block; font-size:1.7rem; font-weight: 300; letter-spacing: .07rem; text-align: center; margin-bottom: 1rem;}
+.box__settings{display: inline-block;
+    box-sizing: content-box;
+    width: 16%; padding-left: 2%; margin-bottom: 2%;}
+.style__pimentones{padding-left: 6rem;font-family: 'Lato';}
+.style__remolacha{font-family: 'Lato'; padding-left: 1rem;}
+.style__zanahorias{font-family: 'Lato'; padding-left: 6rem;}
+.style__tomates{font-family: 'Lato'; padding-left: 4rem;}
+.minus__margin{margin-left: -4.5rem;}
+.more__margin{margin-left: 5rem;}
+
+/* DONDE  */
+.centrar__canasta{margin-left: 3rem;}
+.frame__markets{box-sizing: content-box;
+    width: 100%;height: 120px;background-color: #01793C}
+.box__settings__donde{display: inline-block;
+        box-sizing: content-box;
+        width: 24.5%; position:relative; padding-left: 2%; margin-bottom: 2%;}
+
+.thumbnail { 
+    display:block; 
+    z-index:999; 
+    cursor: pointer;
+    transition-property:all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease ; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease;} 
+    
+.thumbnail:hover { 
+    transform: scale(1.06);}
+
+/* CONTACTO  */
+.caja__form {box-sizing: content-box;
+width: 50%;
+padding: 5px;
+background-color: #D5C0AB; display: inline-block;}
+
 /* back to top btn */
 .back__top {position: sticky;bottom: 20px;margin-right: 10px;place-self: end; text-decoration: none;padding: 13px;font-family: 'Lato'; color:whitesmoke;background: #475b74;border-radius: 55px; margin-left: 95%; opacity:0.6;}
 .back__top:hover{ background-color: whitesmoke; color:#475b74;}
@@ -70,13 +113,13 @@ body{margin-top: 5.5rem;}
 .main__video{ height: 92vh; margin-top: 0; padding-top: 5%;}
 .nosotros__titular{font-size: 79%; letter-spacing: 0.4rem; margin-top: 1rem; letter-spacing: 0.4rem;}
 .nosotros__titular2{font-size: 80%; letter-spacing: 0.3rem;}
-.nosotros__videobox{margin: 1rem; width: 90%; height:25vh; justify-self: auto; border-radius: 3%;}
-.nosotros__parrafo{width: 90%;height: 55vh; margin-top: 0%; margin-left: 5%;}
-.nosotros__parrafo >p{font-size: 1rem; padding: 0%; font-weight: 100;}
+.nosotros__videobox{display: none;}
+.nosotros__parrafo{width: 90%;height: 70vh; margin-top: 0%; margin-left: 5%;}
 .nosotros__layout{display: grid; flex-direction: column;   background-image:url(../../img/manos_tierra.jpg); background-position:center;background-repeat:no-repeat; background-size:cover; height:100vh;}
 .nosotros__container{display: flex; flex-direction: column;}
 .back__top {margin-left: 90%;padding: 10;}
 }
+/* Rango 320px */
 @media screen and (min-width:300px) and (max-width:325px)
 {
 .main__hero{max-width: 332px;}

@@ -9,42 +9,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>NOSOTROS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/css/style.css"">
 </head>
-<body>
-<!-- MENÚ ESTRUCTURAL -->
-<section>
-  <header>
-   <a href="../index.html"><img src="../img/LOGO [Convertido].jpg" width="130" alt="Logo organicos del retiro"></a>
-    <nav>
-      <ul> 
-          <li><a href="#">NOSOTROS</a> </li>
-          <li><a href="./productos.html">NUESTROS PRODUCTOS</a> </li>
-          <li><a href="./donde.html"> ENCUÉNTRANOS</a></li>
-          <li><a href="./contacto.html"> CONTÁCTANOS </a> </li>
-      </ul>
-      <hr>
-    </nav>
-  </header>
-</section>
+<body class="justify-content-center media__1024">
+  <!-- MENÚ NAVEGACIÓN -->
+      <header>
+          <nav class="navbar navbar-expand-lg bg-light nav__bar">
+              <div class="container-fluid">
+                  <a class="nav__logo img-fluid" href="/index.html"><img src="/img/LOGO [Convertido].jpg" width="125" alt="Logo orgánicos del retiro"></a>
+                <button class="navbar-toggler nav__button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav  mx-3 my-3 gap-3">
+                    <li class="nav-item nav__item">
+                      <a class="mx-1 nav-link active button nav__list__deco text-white" aria-current="page" href="#nosotros"><i class="fa fa-heart mx-1"></i>NOSOTROS</a>
+                    </li>
+                    <li class="nav-item nav__item">
+                      <a class="nav-link button text-white nav__list__deco mx-1" href="./productos.html"><i class="fa fa-leaf mx-1"></i> PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item nav__item">
+                      <a class="nav-link mx-1 button nav__list__deco text-white" href="./donde.html"><i class="fa fa-shopping-basket mx-1"></i>ENCUÉNTRANOS</a>
+                    </li>
+                    <li class="nav-item nav__item">
+                      <a class="nav-link mx-1 button nav__list__deco text-white" href="./contacto.html"><i class="fa fa-comments mx-1"></i >CONTÁCTANOS</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
 
-<section>
-  <h2 class="titulares">Lo que para algunos es suciedad, para nosotros es Felicidad...</h2>
-  
-  <div class= "caja__video">
-    <video src="../img/time_lapse_rapido.mp4" width="100%" autoplay loop muted alt="Plantas creciendo rápidamente"></video> 
-  </div> 
-  <div class="caja__texto ">
-    <p> La felicidad de sentirla en nuestras manos cada día.</p>
-    <p> La felicidad de poner en ella una semilla y ver como la abraza, deja jugar sus raíces en ella y somos testigos de esta maestra que nos enseña todos los días, lo que es esto que llamamos vida!</p> 
-    <p> La felicidad de ver crecer sus flores y sus frutos, esos que te alimentan todos los días, quienes le dan energía a tu vida y seguramente también, a tu felicidad! </p>
-    <p> Amamos la tierra y por eso somos orgánicos
-      y como orgánicos tenemos los pies bien puestos en la tierra,
-      por que en nuestra tierra crece la felicidad y por eso la cuidamos!</p>
-  </div>
-  <h3 class="slogan__style">La felicidad está en la tierra!</h3>
-</section>
-  <br><hr>
+               
+      <section id="nosotros" class="nosotros__layout container-fluid-p0">
+      
+        <h2 class="nosotros__titular container-fluid-p0">Lo que para algunos es suciedad,</h2>
+        <h2 class="nosotros__titular2 container-fluid-p0">para nosotros es :"La Felicidad..."</h2>
+            <div class="nosotros__container container row">
+
+                <div class="nosotros__videobox" data-aos="zoom-in-up" data-aos-duration="1800">
+                    <video  class="nosotros__video container-fluid-p0 embed-responsive embed-responsive-21by9 embed-responsive-item" src="../img/time_lapse_rapido.mp4" autoplay loop muted alt="Plantas creciendo rápidamente"></video>
+                </div> 
+                <div class="nosotros__parrafo container-fluid-p0 row" data-aos="flip-down" data-aos-duration="1800">
+                    <p class="container-fluid-p0"> <br> La felicidad de sentirla en nuestras manos cada día; y al poner en ella una semilla ver como la abraza, alimenta sus raíces y nos enseña qué es esto que llamamos vida! <br> <br>
+                    Amamos la tierra y por eso somos orgánicos y como orgánicos tenemos los pies bien puestos en la tierra, por que en nuestra tierra crece la felicidad y por eso la cuidamos! <br><br>
+                  <span class="justify-content-center"> Orgánicos del Retiro: <br> La Felicidad está en la tierra!</span></p> 
+                </div>
+            </div>
+
+
+                        <!-- Animate on Scroll -->
+                        <script>
+                          AOS.init();
+                        </script>  
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>   
 </body>
 </html>
